@@ -18,7 +18,7 @@ Project completed
 
 # Getting Started
 
-Code is developed in Microsoft Visual studio Studio and thus only running the `.sln` solution file is necessery to start working on the project
+Code is developed in Microsoft Visual Studio and thus only running the `.sln` solution file is necessery to start working on the project
 
 # Authors
 
