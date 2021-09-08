@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="blowfish_data_init.c">
+      <Filter>blowfish-source\data</Filter>
+    </ClCompile>
+    <ClCompile Include="blowfish.c">
+      <Filter>blowfish-source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="blowfish-source">
+      <UniqueIdentifier>{bdd35570-ae82-4621-867c-8af805d53d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="blowfish-source\data">
+      <UniqueIdentifier>{f3c1e110-8253-480c-b95f-327ab9cae9c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blowfish_data_init.h">
+      <Filter>blowfish-source\data</Filter>
+    </ClInclude>
+    <ClInclude Include="blowfish.h">
+      <Filter>blowfish-source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
